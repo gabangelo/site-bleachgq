@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+body{
+    background: rgb(23,21,24);
+background: radial-gradient(circle, rgba(23,21,24,1) 19%, rgba(0,0,0,0.9920343137254902) 100%);
+}
+
+nav a{
+    color:  white;
+    display: inline-flex;
+    justify-content: space-between;
+    gap: 20px
+}
+
+.cl-red{
+    color: red;
+}
+
+#cabecalho{
+    border-bottom: 1px solid white;
+    padding: 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center
+}
+
+#cabecalho-titulo{
+    font-weight: bold;
+    color: #fff;
+}
+
+.container {
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.card {
+    width: 400px;
+    height: 200px;
+    margin: 25px 35px 20px 0;
+    background-color: black;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.card-header {
+    width: 400px;
+    height: 150px;
+}
+
+.card-img {
+    width: 400px;
+    height: 140px;
+}
+
+.card-body {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.card-title {
+    font-size: 25px;
+    color: white;
+}
+
+.card-subtitle {
+    font-size: 15px;
+    color: white;
+}
+
+#rodape{
+    border-top: 1px solid white;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+#rodape-conteudo{
+    color: white;
+    text-align: center;
+}
