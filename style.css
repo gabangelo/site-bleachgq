@@ -49,8 +49,8 @@ body{
     color: #fff;
 }
 
-.container {
-    width: 1000px;
+.container-wrap {
+    width: 100%;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -60,46 +60,10 @@ body{
 .card {
     width: 400px;
     height: 200px;
-    margin: 25px 35px 20px 0;
+    margin: 25px;
     background-color: black;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
-}
-
-@media screen and (max-width: 768px) {
-    #cabecalho-navegacao{
-        justify-content: space-around;
-        margin: 5px;
-        gap: 10px;
-    }
-    .container {
-        flex-direction: column;
-        width: auto;
-    }
-    .card {
-        width: 400px;
-        height: 200px;
-        margin: 10px;
-    }
-    .card-header {
-        width: 100px;
-        height: 50px;
-    }
-    .card-img {
-        width: 400px;
-        height: 140px;
-    }
-    .card:hover{
-        -webkit-transform: unset;
-        -ms-transform: unset;
-        transform: unset;
-        transition: unset;
-        cursor: unset;
-    }
-    #cabecalho{
-        font-size: 10px;
-        margin: 1px;
-    }
 }
 
 .card:hover{
@@ -137,11 +101,13 @@ body{
 
 #rodape{
     border-top: 1px solid white;
-    margin-top: 20px;
-    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
 }
 
 #rodape-conteudo{
     color: white;
-    text-align: center;
+    margin: 35px 0;
 }
