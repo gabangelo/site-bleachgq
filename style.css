@@ -34,9 +34,22 @@ body{
 #cabecalho-navegacao{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
     margin: 5px;
     gap: 20px;
+}
+
+nav#cabecalho-navegacao a{
+    font-size: 15px;
+}
+
+@media screen and (max-width: 500px){
+    nav#cabecalho-navegacao a{
+        font-size: 10px;
+    }
+    #cabecalho h1{
+        font-size: 15px;
+    }
 }
 
 #cabecalho-navegacao a{
@@ -50,7 +63,7 @@ body{
 }
 
 .container-wrap {
-    width: 100%;
+    width: 80%;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -58,7 +71,7 @@ body{
 }
 
 .card {
-    width: 400px;
+    width: 350px;
     height: 200px;
     margin: 25px;
     background-color: black;
@@ -74,13 +87,8 @@ body{
     cursor: pointer;
 }
 
-.card-header {
-    width: 400px;
-    height: 150px;
-}
-
-.card-img {
-    width: 400px;
+.card-header, .card-img {
+    width: 350px;
     height: 140px;
 }
 
