@@ -8,12 +8,18 @@
 
 
 body{
-    background-image: linear-gradient(to right top, #000000, #181617, #292528, #39353b, #48464f, #48464f, #48464f, #48464f, #39353b, #292528, #181617, #000000);
+    background-image: linear-gradient(to right top, #000000, #181617, #292528,
+    #39353b, #48464f, #48464f, #48464f, #48464f, #39353b,
+    #292528, #181617, #000000);
+}
+
+#cabecalho-navegacao a{
+    color:  white;
 }
 
 #cabecalho-navegacao a:hover{
     color: white;
-    background-color: #313436;
+    background-color: #797d80;
     padding: 5px;
     border-radius: 5px;
     transition: 0.1s;
@@ -28,18 +34,16 @@ body{
     padding: 15px;
     display: flex;
     justify-content: space-around;
-    align-items: center
 }
 
 #cabecalho-navegacao{
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
     margin: 5px;
-    gap: 20px;
+    gap: 10px;
 }
 
-nav#cabecalho-navegacao a{
+#cabecalho-navegacao a{
     font-size: 15px;
 }
 
@@ -50,12 +54,28 @@ nav#cabecalho-navegacao a{
     #cabecalho h1{
         font-size: 15px;
     }
-}
+    .container-wrap {
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin: 0 auto;
+    }
+    
+    .card {
+        width: 300px;
+        height: 150px;
+        margin: 20px;
+        background-color: black;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+    }
 
-#cabecalho-navegacao a{
-    color:  white;
+    .card-header, .card-img {
+        width: 300px;
+        height: 140px;
+    }
 }
-
 
 #cabecalho-titulo{
     font-weight: bold;
@@ -117,5 +137,5 @@ nav#cabecalho-navegacao a{
 
 #rodape-conteudo{
     color: white;
-    margin: 35px 0;
+    margin: 29px 0;
 }
