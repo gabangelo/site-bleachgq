@@ -6,7 +6,6 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-
 body{
     display: flex;
     flex-direction: column;
@@ -146,4 +145,55 @@ body{
 #rodape-conteudo{
     color: white;
     margin: 31px 0;
+}
+
+@media screen and (max-width: 360px){
+    nav#navegacao a{
+        margin: 0;
+        font-size: 12px;
+    }
+    #cabecalho h1{
+        font-size: 22px;
+    }
+    #cabecalho{
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    .container-wrap {
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin: 0 auto;
+    }
+    
+    .card {
+        width: 350px;
+        height: 150px;
+        margin: 20px;
+        background-color: black;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+    }
+
+    .card-header, .card-img {
+        width: 250px;
+        height: 100px;
+    }
+
+    .card-body {
+        text-align: center;
+        font-family: sans-serif;
+    }
+    
+    .card-title {
+        margin-top: 10px;
+        font-size: 15px;
+        color: white;
+    }
+    
+    .card-subtitle {
+        font-size: 12px;
+        color: white;
+    }
 }
