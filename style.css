@@ -48,7 +48,7 @@ body{
     font-size: 15px;
 }
 
-@media screen and (max-width: 500px){
+@media screen and (max-width: 900px){
     nav#navegacao a{
         margin: 0;
         font-size: 13px;
@@ -147,7 +147,7 @@ body{
     margin: 31px 0;
 }
 
-@media screen and (max-width: 360px){
+@media screen and (max-width: 450px){
     nav#navegacao a{
         margin: 0;
         font-size: 12px;
@@ -169,7 +169,7 @@ body{
     
     .card {
         width: 350px;
-        height: 150px;
+        height: 210px;
         margin: 20px;
         background-color: black;
         border-bottom-left-radius: 5px;
@@ -177,8 +177,8 @@ body{
     }
 
     .card-header, .card-img {
-        width: 250px;
-        height: 100px;
+        width: 350px;
+        height: 150px;
     }
 
     .card-body {
@@ -196,4 +196,92 @@ body{
         font-size: 12px;
         color: white;
     }
+}
+
+@media screen and (max-width: 280px){
+    nav#navegacao a{
+        margin: 0;
+        font-size: 8px;
+    }
+    #cabecalho h1{
+        font-size: 20px;
+    }
+    #cabecalho{
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    .container-wrap {
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin: 0 auto;
+    }
+    
+    .card {
+        width: 250px;
+        height: 160px;
+        margin: 20px;
+        background-color: black;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+    }
+
+    .card-header, .card-img {
+        width: 250px;
+        height: 110px;
+    }
+
+    .card-body {
+        text-align: center;
+        font-family: sans-serif;
+    }
+    
+    .card-title {
+        margin-top: 10px;
+        font-size: 15px;
+        color: white;
+    }
+    
+    .card-subtitle {
+        font-size: 12px;
+        color: white;
+    }
+}
+
+
+/*************PAGINA GQ***************/
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    color: #fff;
+    text-align: center;
+    margin: 10px 0;
+}
+
+.subtitle {
+    color: white;
+    text-align: center;
+    margin: 20px 0;
+} 
+
+p {
+    margin: 5px 0 10px 0 ;
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+}
+
+.container-content {
+    margin: 0 auto;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
